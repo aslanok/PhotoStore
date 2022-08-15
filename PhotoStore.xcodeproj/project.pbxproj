@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FAD3B93C28AA8FB700F15E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B93B28AA8FB700F15E89 /* AppDelegate.swift */; };
 		FAD3B93E28AA8FB700F15E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B93D28AA8FB700F15E89 /* SceneDelegate.swift */; };
-		FAD3B94028AA8FB700F15E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B93F28AA8FB700F15E89 /* ViewController.swift */; };
 		FAD3B94328AA8FB700F15E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3B94128AA8FB700F15E89 /* Main.storyboard */; };
 		FAD3B94628AA8FB700F15E89 /* PhotoStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B94428AA8FB700F15E89 /* PhotoStore.xcdatamodeld */; };
 		FAD3B94828AA8FBA00F15E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD3B94728AA8FBA00F15E89 /* Assets.xcassets */; };
@@ -17,6 +16,11 @@
 		FAD3B95628AA8FBA00F15E89 /* PhotoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B95528AA8FBA00F15E89 /* PhotoStoreTests.swift */; };
 		FAD3B96028AA8FBB00F15E89 /* PhotoStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B95F28AA8FBB00F15E89 /* PhotoStoreUITests.swift */; };
 		FAD3B96228AA8FBB00F15E89 /* PhotoStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B96128AA8FBB00F15E89 /* PhotoStoreUITestsLaunchTests.swift */; };
+		FAD3B96F28AA91EE00F15E89 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B96E28AA91EE00F15E89 /* TableViewController.swift */; };
+		FAD3B97128AA920E00F15E89 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B97028AA920E00F15E89 /* TableViewCell.swift */; };
+		FAD3B97728AA981300F15E89 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B97628AA981300F15E89 /* Entity.swift */; };
+		FAD3B97A28AA991700F15E89 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3B97928AA991700F15E89 /* CoreData.framework */; };
+		FAD3B97C28AAA27C00F15E89 /* addPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B97B28AAA27C00F15E89 /* addPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		FAD3B93828AA8FB700F15E89 /* PhotoStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD3B93B28AA8FB700F15E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD3B93D28AA8FB700F15E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAD3B93F28AA8FB700F15E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAD3B94228AA8FB700F15E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD3B94528AA8FB700F15E89 /* PhotoStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoStore.xcdatamodel; sourceTree = "<group>"; };
 		FAD3B94728AA8FBA00F15E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		FAD3B95B28AA8FBB00F15E89 /* PhotoStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD3B95F28AA8FBB00F15E89 /* PhotoStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStoreUITests.swift; sourceTree = "<group>"; };
 		FAD3B96128AA8FBB00F15E89 /* PhotoStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAD3B96E28AA91EE00F15E89 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FAD3B97028AA920E00F15E89 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FAD3B97628AA981300F15E89 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		FAD3B97928AA991700F15E89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAD3B97B28AAA27C00F15E89 /* addPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD3B97A28AA991700F15E89 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				FAD3B95428AA8FBA00F15E89 /* PhotoStoreTests */,
 				FAD3B95E28AA8FBB00F15E89 /* PhotoStoreUITests */,
 				FAD3B93928AA8FB700F15E89 /* Products */,
+				FAD3B97828AA991700F15E89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +113,15 @@
 			children = (
 				FAD3B93B28AA8FB700F15E89 /* AppDelegate.swift */,
 				FAD3B93D28AA8FB700F15E89 /* SceneDelegate.swift */,
-				FAD3B93F28AA8FB700F15E89 /* ViewController.swift */,
 				FAD3B94128AA8FB700F15E89 /* Main.storyboard */,
+				FAD3B97B28AAA27C00F15E89 /* addPhotoViewController.swift */,
+				FAD3B96E28AA91EE00F15E89 /* TableViewController.swift */,
+				FAD3B97028AA920E00F15E89 /* TableViewCell.swift */,
 				FAD3B94728AA8FBA00F15E89 /* Assets.xcassets */,
 				FAD3B94928AA8FBA00F15E89 /* LaunchScreen.storyboard */,
 				FAD3B94C28AA8FBA00F15E89 /* Info.plist */,
 				FAD3B94428AA8FB700F15E89 /* PhotoStore.xcdatamodeld */,
+				FAD3B97628AA981300F15E89 /* Entity.swift */,
 			);
 			path = PhotoStore;
 			sourceTree = "<group>";
@@ -128,6 +141,14 @@
 				FAD3B96128AA8FBB00F15E89 /* PhotoStoreUITestsLaunchTests.swift */,
 			);
 			path = PhotoStoreUITests;
+			sourceTree = "<group>";
+		};
+		FAD3B97828AA991700F15E89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3B97928AA991700F15E89 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD3B94028AA8FB700F15E89 /* ViewController.swift in Sources */,
+				FAD3B97128AA920E00F15E89 /* TableViewCell.swift in Sources */,
 				FAD3B93C28AA8FB700F15E89 /* AppDelegate.swift in Sources */,
+				FAD3B97728AA981300F15E89 /* Entity.swift in Sources */,
 				FAD3B94628AA8FB700F15E89 /* PhotoStore.xcdatamodeld in Sources */,
+				FAD3B97C28AAA27C00F15E89 /* addPhotoViewController.swift in Sources */,
 				FAD3B93E28AA8FB700F15E89 /* SceneDelegate.swift in Sources */,
+				FAD3B96F28AA91EE00F15E89 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
